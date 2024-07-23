@@ -21,7 +21,10 @@ const Carousel = () => {
   };
   return (
     <div className=" w-full h-fit flex justify-center items-center py-2 select-none">
-      <span onClick={handlePrev} className=" opacity-50 hover:opacity-100 cursor-pointer duration-100">
+      <span
+        onClick={handlePrev}
+        className=" opacity-50 hover:opacity-100 cursor-pointer duration-100"
+      >
         <FaChevronLeft size={32} />
       </span>
       <div className="lg:flex w-full h-[50rem] overflow-hidden hidden justify-center items-center rounded-xl object-cover">
@@ -37,9 +40,6 @@ const Carousel = () => {
           }}
           pagination={{
             clickable: true,
-            renderBullet: (index, className) => {
-              return `<span class="${className}">${index + 1}</span>`;
-            },
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
@@ -55,7 +55,10 @@ const Carousel = () => {
           ))}
         </Swiper>
       </div>
-      <span onClick={handleNext} className=" opacity-50 hover:opacity-100 cursor-pointer duration-100">
+      <span
+        onClick={handleNext}
+        className=" opacity-50 hover:opacity-100 cursor-pointer duration-100"
+      >
         <FaChevronRight size={32} />
       </span>
     </div>
