@@ -43,11 +43,12 @@ const Carousel = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
+          className="w-full h-full rounded-xl overflow-hidden"
         >
           {carouselContent.map((item) => (
             <SwiperSlide key={item.id}>
               <img
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover rounded-xl"
                 src={item.src}
                 alt={item.description}
               />

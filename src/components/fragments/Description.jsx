@@ -2,13 +2,13 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div className="px-[15rem] mt-8 mb-4">
+    <div className="px-[15rem] mt-4 mb-4">
       <div className="text-center">
         <p className="uppercase font-bold text-4xl">
           Proceedings of MP-TEAS 2024 IES UNIVERSITY BHOPAL
         </p>
       </div>
-      <div className="flex flex-col gap-4 font-medium mt-8">
+      <div className="flex flex-col gap-4 font-medium mt-4">
         <p>
           UNI-TEAS 2024 is the 3rd International Conference on “Universal
           Threats in Expert Applications and Solutions", jointly being organized
@@ -72,12 +72,14 @@ const Description = () => {
         </p>
         <div className="flex flex-col gap-2">
           <p className="flex font-semibold">
-            Last Date of Manuscript Submission:-  <span className="line-through mx-1">Oct 15th, 2023</span>  Extended till
-            Nov 20th, 2023 (No Further Extensions After This date)
+            Last Date of Manuscript Submission:-{" "}
+            <span className="line-through mx-1">Oct 15th, 2023</span> Extended
+            till Nov 20th, 2023 (No Further Extensions After This date)
           </p>
           <p>
-            Notification of Acceptance: <span className="line-through mx-1">Oct 15th, 2023</span> Oct 30th, 2023 (Or within
-            15 days of paper submission)
+            Notification of Acceptance:{" "}
+            <span className="line-through mx-1">Oct 15th, 2023</span> Oct 30th,
+            2023 (Or within 15 days of paper submission)
           </p>
           <p>
             Revised Submission: Oct 30th, 2023 (Or Within 7 Days of Intimation)
