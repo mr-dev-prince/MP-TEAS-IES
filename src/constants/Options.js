@@ -13,7 +13,7 @@ export const headerOptions = [
   },
   {
     id: 2,
-    href: "/authors",
+    href: "/",
     value: "Authors",
     hasOptions: true,
     options: [
@@ -46,8 +46,8 @@ export const headerOptions = [
   },
   {
     id: 4,
-    href: "/invitees",
-    value: "Invitees",
+    href: "/conferenceinfo",
+    value: "ConferenceInfo",
     hasOptions: true,
     options: [
       { id: 1, href: "/", value: "Eminent Guests of Honors" },
