@@ -30,14 +30,14 @@ export function DrawerComponent() {
         finalFocusRef={btnRef}
       >
         <DrawerOverlay  />
-        <DrawerContent bgColor={"#3E6FD9"}>
+        <DrawerContent bgColor={"#D6E3FF"}>
           <DrawerCloseButton />
           <DrawerHeader bgColor={"#3965C4"} textColor={"#fff"} fontFamily={"serif"}>MP-TEAS</DrawerHeader>
 
           <DrawerBody>
             <div className="flex flex-col gap-2">
               {headerOptions.map((item) => (
-                <Link className=" bg-blue-300/[0.7] text-white font-semibold py-2 px-4 rounded-sm" to={item.href}>{item.value}</Link>
+                <Link className=" bg-blue-300/[0.7] text-black font-semibold py-2 px-4 rounded-sm" to={item.href}>{item.value}</Link>
               ))}
             </div>
           </DrawerBody>
