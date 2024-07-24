@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div className="md:px-[15rem] mt-4 mb-4">
+    <div className="md:px-[15rem] lg:px-[10rem] mt-4 mb-4">
       <div className="text-center">
         <p className="uppercase font-bold font-serif md:text-4xl text-2xl ">
           MP-TEAS 2024 IES UNIVERSITY BHOPAL

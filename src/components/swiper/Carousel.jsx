@@ -21,14 +21,14 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full h-fit flex justify-center items-center md:py-2 md:px-0 overflow-hidden select-none p-2 ">
+    <div className="w-full h-fit flex justify-center items-center md:py-2 md:px-8 lg:px-12 overflow-hidden select-none p-2 ">
       <span
         onClick={handlePrev}
         className="opacity-50 hover:opacity-100 cursor-pointer duration-100 hidden md:block"
       >
         <FaChevronLeft size={32} />
       </span>
-      <div className="flex w-full h-80 md:h-[40rem] overflow-hidden justify-center items-center rounded-xl object-cover">
+      <div className="flex w-full h-80 lg:h-[35rem] md:h-30rem] overflow-hidden justify-center items-center rounded-xl object-cover">
         <Swiper
           ref={swiperRef}
           spaceBetween={30}
