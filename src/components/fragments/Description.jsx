@@ -44,7 +44,7 @@ const Description = () => {
         </p>
 
         <p className="font-bold mt-4">
-          “Proceedings of UNI-TEAS 2024” will be published in two volumes of
+          “Proceedings of IES-TEAS 2024” will be published in two volumes of
           Springer Nature's Scopus/SCI indexed book series “Lecture Notes in
           Networks and Systems”{" "}
           <a
