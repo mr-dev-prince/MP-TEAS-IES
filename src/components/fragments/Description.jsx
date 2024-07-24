@@ -8,7 +8,7 @@ const Description = () => {
           MP-TEAS 2024 IES UNIVERSITY BHOPAL
         </p>
       </div>
-      <div className="mt-4 md:font-medium w-full px-6 flex flex-col gap-3 ">
+      <div className="mt-4 md:font-medium w-full px-6 flex flex-col gap-3 text-justify">
         <p>
           This conference i.e.{" "}
           <span className="font-medium md:font-semibold">
@@ -44,7 +44,7 @@ const Description = () => {
         </p>
 
         <p className="font-bold mt-4">
-          “Proceedings of IES-TEAS 2024” will be published in two volumes of
+          “Proceedings of MP-TEAS 2024” will be published in two volumes of
           Springer Nature's Scopus/SCI indexed book series “Lecture Notes in
           Networks and Systems”{" "}
           <a

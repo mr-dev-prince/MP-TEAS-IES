@@ -12,7 +12,7 @@ const Banner = () => {
           <span className="flex flex-col gap-2 justify-between items-center md:justify-start md:items-start mt-2 md:mt-0">
             <p className="font-bold text-xl">Schedule:</p>
             <span>
-              <p className="font-semibold font-serif md:text-xl text-base">MP-TEAS : 22th-24th Nov 2024</p>
+              <p className="font-semibold font-serif md:text-xl text-base">MP-TEAS : 22nd-24th Nov 2024</p>
               <p>At: IES UNIVERSITY, BHOPAL</p>
             </span>
           </span>
