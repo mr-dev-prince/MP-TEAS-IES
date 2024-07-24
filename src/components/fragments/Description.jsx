@@ -2,56 +2,39 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div className="px-[15rem] mt-4 mb-4">
+    <div className="md:px-[15rem] mt-4 mb-4">
       <div className="text-center">
-        <p className="uppercase font-bold text-4xl">
-          Proceedings of MP-TEAS 2024 IES UNIVERSITY BHOPAL
+        <p className="uppercase font-bold md:text-4xl text-2xl ">
+          MP-TEAS 2024 IES UNIVERSITY BHOPAL
         </p>
       </div>
-      <div className="flex flex-col gap-4 font-medium mt-4">
+      <div className=" font-medium mt-4  w-full outline px-6 ">
         <p>
-          UNI-TEAS 2024 is the 3rd International Conference on “Universal
-          Threats in Expert Applications and Solutions", jointly being organized
-          by IES University, Bhopal and Shree KKarni Universe College, Jaipur in
-          association with CSI Jaipur Chapter and Jaipur ACM Professional
-          Chapter. The conference will be conducted in two parts at two
-          different venues, UNI-TEAS 2024 Part 1 on 6th -7thJan 2024 at Shree
-          KKarni Universe College, Jaipur, and UNI-TEAS 2024 Part 2 on 8th -9th
-          Jan 2024, at IES University, Bhopal.
+          This conference i.e. Modern Practises and Trends in Expert
+          Applications and Security abbreviated as MP-TEAS 2024, will take place
+          in Bhopal, Madhya Pradesh, India. In order to build intelligent ICT
+          systems and pursue machine learning applications for contents,
+          platforms, networks, and devices, the conference encourages their
+          translation into real-world applications, and presentations of new
+          developments and research findings in the fields of computer science,
+          engineering applications, and the security of the Expert Applications.
+          MP-TEAS 2024 aims to provide an opportunistic forum and vibrant
+          platform for researchers and industry practitioners to build business
+          or research relationships, find global partners for future
+          collaboration on emerging issues, and share state-of-the-art knowledge
+          gained from their original research work and practical developments on
+          specific new challenges, applications, and experiences. The
+          conference's "Expert Applications" theme will focus on the most recent
+          advancements in research and the application of expert systems, with a
+          particular focus on the part that these advancements play in upholding
+          academic standards while disseminating cutting-edge discoveries in the
+          fields of computer system security using cryptographic algorithms and
+          other security schemes for system as well as for cloud. We are seeking
+          for unique entries that have never been published and aren't currently
+          being considered by any other journals or conferences.
         </p>
-        <p>
-          The technology has evolved with great speed in the last decade,
-          resulting in the development of Expert Applications making life more
-          effortless. The applications of AI, Big Data, IoT, over the platforms
-          of Cloud computing have been emerging in the form of latest apps,
-          gadgets, robots, ChatGPT and others with unbelievable outcomes.
-          However, at the same time the universal threats in Expert Applications
-          need to be focused and analysed while developing satisfactory
-          solutions for the same. This will help the society to prevent itself
-          from ill effects of the technological developments.
-        </p>
-        <p>
-          This International Conference on “Universal Threats in Expert
-          Applications and Solutions” aims to focus on the rising universal
-          threats along with latest technological developments, and provide a
-          platform to unite the researchers, academicians, and other
-          stakeholders to explore, discuss, and analyse the proposed solutions
-          to these threats.
-        </p>
-        <p>
-          To understand another dimension of the conference abbreviation
-          UNI-TEAS (pronounced as Unities), it describes that the experts across
-          the UNIVERSE need to UNITE to understand the THREATS while giving
-          detailed thoughts to the issues by analysing all their pros and cons
-          in advance, so that the issues can be addressed with proper planning
-          and utmost care to benefit the concerned, and find out possible
-          solutions through different technical sessions and TEA breaks during
-          the conference, further more, the research works being carried would
-          also be authenticated and validated for publishing in the conference
-          proceedings that afterwards could be utilized by the other researchers
-          in the UNIVERSE to fulfil their concerned research objectives.
-        </p>
-        <p className="font-bold">
+
+        <p className="font-bold mt-4">
           “Proceedings of UNI-TEAS 2024” will be published in two volumes of
           Springer Nature's Scopus/SCI indexed book series “Lecture Notes in
           Networks and Systems”{" "}

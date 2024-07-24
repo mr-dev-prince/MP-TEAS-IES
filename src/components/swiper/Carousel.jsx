@@ -19,20 +19,20 @@ const Carousel = () => {
       swiperRef.current.swiper.slidePrev();
     }
   };
+
   return (
-    <div className=" w-full h-fit flex justify-center items-center py-2 select-none">
+    <div className="w-full h-fit flex justify-center items-center py-2 select-none">
       <span
         onClick={handlePrev}
-        className=" opacity-50 hover:opacity-100 cursor-pointer duration-100"
+        className="opacity-50 hover:opacity-100 cursor-pointer duration-100"
       >
         <FaChevronLeft size={32} />
       </span>
-      <div className="lg:flex w-full h-[50rem] overflow-hidden hidden justify-center items-center rounded-xl object-cover">
+      <div className="flex w-full h-80 md:h-[50rem] overflow-hidden justify-center items-center rounded-xl object-cover">
         <Swiper
           ref={swiperRef}
-          spaceBetween={70}
+          spaceBetween={30}
           slidesPerView={1}
-          effect="cube"
           loop={true}
           autoplay={{
             delay: 2000,
@@ -58,7 +58,7 @@ const Carousel = () => {
       </div>
       <span
         onClick={handleNext}
-        className=" opacity-50 hover:opacity-100 cursor-pointer duration-100"
+        className="opacity-50 hover:opacity-100 cursor-pointer duration-100"
       >
         <FaChevronRight size={32} />
       </span>
