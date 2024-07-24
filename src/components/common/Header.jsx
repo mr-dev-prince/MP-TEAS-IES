@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full h-[3rem] bg-[#212121] py-1 px-4 ">
+    <div className="w-full h-[3rem] bg-[#212121] py-1 px-4">
       <div className="flex justify-between items-center h-full w-full">
-        <div></div>
-        <div className="md:flex gap-7 z-50 hidden">
+        <div className="text-white font-bold">LOGO</div>
+        <div className="hidden md:flex gap-7 z-50">
           {headerOptions.map((item) => (
             <Links
               key={item.id}
