@@ -28,7 +28,7 @@ const Carousel = () => {
       >
         <FaChevronLeft size={32} />
       </span>
-      <div className="flex w-full h-80 md:h-[50rem] overflow-hidden justify-center items-center rounded-xl object-cover">
+      <div className="flex w-full h-80 md:h-[40rem] overflow-hidden justify-center items-center rounded-xl object-cover">
         <Swiper
           ref={swiperRef}
           spaceBetween={30}
