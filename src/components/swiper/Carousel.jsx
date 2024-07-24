@@ -21,10 +21,10 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full h-fit flex justify-center items-center py-2 select-none">
+    <div className="w-full h-fit flex justify-center items-center md:py-2 md:px-0 overflow-hidden select-none p-2 ">
       <span
         onClick={handlePrev}
-        className="opacity-50 hover:opacity-100 cursor-pointer duration-100"
+        className="opacity-50 hover:opacity-100 cursor-pointer duration-100 hidden md:block"
       >
         <FaChevronLeft size={32} />
       </span>
@@ -58,7 +58,7 @@ const Carousel = () => {
       </div>
       <span
         onClick={handleNext}
-        className="opacity-50 hover:opacity-100 cursor-pointer duration-100"
+        className="opacity-50 hover:opacity-100 cursor-pointer duration-100 hidden md:block"
       >
         <FaChevronRight size={32} />
       </span>

@@ -3,20 +3,13 @@ import mpteas from "../../assets/MP-TEAS.jpeg";
 
 const Banner = () => {
   return (
-    <div className="px-9 py-2">
+    <div className="md:px-9 md:py-2 p-2">
       <div className="shadow-sm shadow-black rounded-lg overflow-hidden">
-        <div className="flex justify-around items-center px-12">
+        <div className="flex flex-col md:flex-row justify-around items-center px-12">
           <span>
             <img className="w-[20rem]" src={mpteas} alt="Mp-teas banner" />
           </span>
-          {/* <span className=" flex flex-col justify-center items-center">
-            <p className="font-serif font-bold text-3xl">
-              Proceedings of MP-TEAS 2024
-            </p>
-            <p className="font-semibold text-2xl font-serif">IES UNIVERSITY</p>
-            <p className="font-bold text-xl">BHOPAL</p>
-          </span> */}
-          <span className="flex flex-col gap-2">
+          <span className="flex flex-col gap-2 justify-between items-center md:justify-start md:items-start mt-2 md:mt-0">
             <p className="font-bold text-xl">Schedule:</p>
             <span>
               <p className="font-semibold">
