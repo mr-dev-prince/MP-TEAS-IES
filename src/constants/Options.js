@@ -6,7 +6,7 @@ export const headerOptions = [
     hasOptions: true,
     options: [
       { id: 1, href: "/mpteas", value: "About MP-TEAS" },
-      { id: 2, href: "/aco", value: "About Conference Organizers" },
+      { id: 2, href: "/organisers", value: "About Conference Organizers" },
       { id: 3, href: "/venue", value: "Venue" },
       { id: 4, href: "/aim", value: "Aim & Objectives" },
     ],
