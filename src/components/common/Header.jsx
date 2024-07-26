@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full h-[3rem] bg-[#212121] py-1 px-4">
+    <div className="w-full h-[3rem] bg-[#212121] py-1 px-5 md:px-16">
       <div className="flex justify-between items-center h-full w-full">
         <div className="text-white font-bold">LOGO</div>
         <div className="hidden md:flex gap-7 z-50">

@@ -5,7 +5,7 @@ import Description from "../components/fragments/Description";
 
 const Home = () => {
   return (
-    <div className="w-full h-fit">
+    <div className="w-full h-fit md:px-16 px-4 space-y-2">
       <Banner />
       <Carousel />
       <Description/>

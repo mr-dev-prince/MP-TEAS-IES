@@ -21,12 +21,12 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full h-fit flex justify-center items-center md:py-2 lg:px-8  overflow-hidden select-none p-2 ">
+    <div className="w-full h-fit flex justify-center items-center md:py-2 relative group overflow-hidden select-none ">
       <span
         onClick={handlePrev}
-        className="opacity-50 hover:opacity-100 cursor-pointer duration-100 hidden md:block"
+        className="opacity-0 group-hover:opacity-100 bg-slate-400/[0.6] rounded-xl py-3  absolute left-0 z-50 cursor-pointer duration-200 hidden md:block"
       >
-        <FaChevronLeft size={32} />
+        <FaChevronLeft size={32} color="white" />
       </span>
       <div className="flex w-full h-80 lg:h-[35rem] overflow-hidden justify-center items-center rounded-xl object-cover">
         <Swiper
@@ -58,9 +58,9 @@ const Carousel = () => {
       </div>
       <span
         onClick={handleNext}
-        className="opacity-50 hover:opacity-100 cursor-pointer duration-100 hidden md:block"
+        className="opacity-0 absolute right-0 z-50 bg-slate-400/[0.6] rounded-xl py-3  group-hover:opacity-100 cursor-pointer duration-200 hidden md:block"
       >
-        <FaChevronRight size={32} />
+        <FaChevronRight size={32} color="white" />
       </span>
     </div>
   );

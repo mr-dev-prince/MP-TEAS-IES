@@ -1,4 +1,3 @@
-import img1 from "../assets/ies1.jpg";
 import img2 from "../assets/ies2.jpg";
 import img3 from "../assets/ies3.png";
 import img4 from "../assets/ies4.jpg";
@@ -10,7 +9,6 @@ import home6 from "../assets/home6.jpg";
 
 
 export const carouselContent = [
-  { id: 1, src: img1, description: "" },
   { id: 2, src: img2, description: "" },
   { id: 3, src: img3, description: "" },
   { id: 4, src: img4, description: "" },

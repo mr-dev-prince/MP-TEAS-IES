@@ -2,16 +2,17 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div className="md:px-[15rem] lg:px-[10rem] mt-4 mb-4">
+    <div className=" mt-4 mb-4">
       <div className="text-center">
         <p className="uppercase font-bold font-serif md:text-4xl text-2xl ">
           MP-TEAS 2024 IES UNIVERSITY BHOPAL
         </p>
+        <div className=" h-1 rounded-xl bg-gradient-to-r from-white via-black to-white relative" />
       </div>
       <div className="mt-4 md:font-medium w-full px-6 flex flex-col gap-3 text-justify">
         <p>
           This conference i.e.{" "}
-          <span className="font-medium md:font-semibold">
+          <span className=" font-semibold  md:font-bold">
             Modern Practises and Trends in Expert Applications and Security
             abbreviated as MP-TEAS 2024
           </span>
