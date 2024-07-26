@@ -4,7 +4,7 @@ import mpteas from "../../assets/MP-TEAS.jpeg";
 const Banner = () => {
   return (
     <div className="py-2">
-      <div className="shadow-sm shadow-black rounded-lg py-4 overflow-hidden">
+      <div className="shadow-md shadow-black py-4 overflow-hidden">
         <div className="flex flex-col md:flex-row justify-around items-center">
           <span>
             <img className="w-[20rem]" src={mpteas} alt="Mp-teas banner" />
