@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaCaretDown,
-  FaCaretRight,
-} from "react-icons/fa";
+import { FaCaretDown, FaCaretRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Links = ({ id, href, value, hasOptions, options, openId, onOpen }) => {
@@ -15,6 +12,11 @@ const Links = ({ id, href, value, hasOptions, options, openId, onOpen }) => {
     }
   };
 
+  const handleOptionClick = (e) => {
+    e.preventDefault();
+
+    onOpen(null);
+  };
 
   return (
     <div className="z-50 w-fit">
@@ -23,14 +25,16 @@ const Links = ({ id, href, value, hasOptions, options, openId, onOpen }) => {
         to={href}
       >
         <div className="flex justify-center items-center gap-2 w-full">
-          <p>{value}</p>
-          {hasOptions && (
+          {hasOptions ? (
             <span
               onClick={handleClick}
-              className="hover:bg-blue-700 rounded-full duration-200 flex justify-center items-center"
+              className=" hover:scale-105 duration-100 flex justify-center items-center"
             >
+              <p className="mx-1">{value}</p>
               {isOpen ? <FaCaretRight size={16} /> : <FaCaretDown size={16} />}
             </span>
+          ) : (
+            <p className="hover:scale-105">{value}</p>
           )}
         </div>
         {isOpen && (

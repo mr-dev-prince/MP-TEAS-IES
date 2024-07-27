@@ -99,7 +99,7 @@ const Description = () => {
                 <td>-</td>
               </tr>
               <tr>
-                <td>Last data of Registration</td>
+                <td>Last date of Registration</td>
                 <td className="font-semibold p-1">Nov 10, 2024</td>
                 <td>-</td>
               </tr>

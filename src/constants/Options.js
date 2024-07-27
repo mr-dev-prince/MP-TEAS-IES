@@ -1,8 +1,14 @@
 export const headerOptions = [
   {
-    id: 1,
+    id: 0,
     href: "/",
     value: "Home",
+    hasOptions: false,
+  },
+  {
+    id: 1,
+    href: "/",
+    value: "Details",
     hasOptions: true,
     options: [
       { id: 1, href: "/mpteas", value: "About MP-TEAS" },
@@ -13,16 +19,19 @@ export const headerOptions = [
   },
   {
     id: 2,
-    href: "/",
+    href: "/authors",
     value: "Authors",
     hasOptions: true,
     options: [
-      { id: 1, href: "/mpteas", value: "Call For Papers" },
-      { id: 2, href: "/aco", value: "Important Dates" },
-      { id: 3, href: "/venue", value: "Author Guidelines & Submission" },
-      { id: 4, href: "/aim", value: "Publications & Indexing" },
-      { id: 5, href: "/aim", value: "Conference Tracks" },
-      { id: 5, href: "/aim", value: "Registrations" },
+      { id: 1, href: "/call_for_papers", value: "Call For Papers" },
+      { id: 2, href: "/important_dates", value: "Important Dates" },
+      {
+        id: 3,
+        href: "/author_guidelines",
+        value: "Author Guidelines & Submission",
+      },
+      { id: 4, href: "/conference_tracks", value: "Conference Tracks" },
+      { id: 5, href: "/registrations", value: "Registrations" },
     ],
   },
   {
@@ -31,28 +40,37 @@ export const headerOptions = [
     value: "Committees",
     hasOptions: true,
     options: [
-      { id: 1, href: "/", value: "Conference Organizers & Boards" },
-      { id: 1, href: "/", value: "Patron/Copatron/General chair" },
-      { id: 1, href: "/", value: "Advisory Chairs" },
-      { id: 1, href: "/", value: "PC Chairs Convenor / Co-Chairs" },
+      { id: 1, href: "/cob", value: "Conference Organizers & Boards" },
+      { id: 1, href: "/patron", value: "Patron/Copatron/General chair" },
+      { id: 1, href: "/advisory_chairs", value: "Advisory Chairs" },
+      { id: 1, href: "/pc_chairs", value: "PC Chairs Convenor / Co-Chairs" },
       {
         id: 1,
-        href: "/",
+        href: "/secretary",
         value:
           "Organizing Secretary / Co-Organizing Secretary / Joint Secretary",
       },
-      { id: 1, href: "/", value: "Organizing Committee" },
+      { id: 1, href: "/org_committee", value: "Organizing Committee" },
     ],
   },
   {
     id: 4,
     href: "/conferenceinfo",
-    value: "ConferenceInfo",
+    value: "Invitees",
     hasOptions: true,
     options: [
-      { id: 1, href: "/", value: "Eminent Guests of Honors" },
-      { id: 1, href: "/", value: "Keynote Speakers" },
-      { id: 1, href: "/", value: "Invited Speaker(s) / Session Chair(s)" },
+      { id: 1, href: "/eminent_speakers", value: "Eminent Guests of Honors" },
+      { id: 2, href: "/keynote_speakers", value: "Keynote Speakers" },
+      {
+        id: 3,
+        href: "/invited_speakers",
+        value: "Invited Speaker(s) / Session Chair(s)",
+      },
+      {
+        id: 4,
+        href: "/workshop",
+        value: "Workshop",
+      },
     ],
   },
   {
@@ -61,11 +79,15 @@ export const headerOptions = [
     value: "Special Session Proposals",
     hasOptions: true,
     options: [
-      { id: 1, href: "/", value: "Proposal Guidelines" },
-      { id: 1, href: "/", value: "Submission for Special Sessions" },
-      { id: 1, href: "/", value: "Proceedings" },
-      { id: 1, href: "/", value: "Tracks" },
-      { id: 1, href: "/", value: "Paper Categories" },
+      { id: 1, href: "/proposal_guide", value: "Proposal Guidelines" },
+      {
+        id: 2,
+        href: "/special_subs",
+        value: "Submission for Special Sessions",
+      },
+      { id: 3, href: "/proceedings", value: "Proceedings" },
+      { id: 4, href: "/tracks", value: "Tracks" },
+      { id: 5, href: "/paper_category", value: "Paper Categories" },
     ],
   },
   {
@@ -77,7 +99,7 @@ export const headerOptions = [
   },
   {
     id: 8,
-    href: "/schedule",
+    href: "/",
     value: "Schedule",
     hasOptions: false,
     options: [{ id: 1, href: "/", value: "" }],
