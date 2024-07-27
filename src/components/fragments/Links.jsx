@@ -2,7 +2,15 @@ import React from "react";
 import { FaCaretDown, FaCaretRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Links = ({ id, href, value, hasOptions, options, openId, onOpen }) => {
+const Links = ({
+  id,
+  href,
+  value,
+  hasOptions,
+  options,
+  openId,
+  onOpen,
+}) => {
   const isOpen = openId === id;
 
   const handleClick = (e) => {
@@ -12,11 +20,6 @@ const Links = ({ id, href, value, hasOptions, options, openId, onOpen }) => {
     }
   };
 
-  const handleOptionClick = (e) => {
-    e.preventDefault();
-
-    onOpen(null);
-  };
 
   return (
     <div className="z-50 w-fit">

@@ -1,17 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { headerOptions } from "../../constants/Options";
 import Links from "../fragments/Links";
 import { DrawerComponent } from "../fragments/DrawerComponent";
 
 const Header = () => {
   const [openId, setOpenId] = useState(null);
+  const containerRef = useRef(null);
 
   const handleOpen = (id) => {
     setOpenId((prevId) => (prevId === id ? null : id));
   };
 
+  const handleClickOutside = (event) => {
+    if (containerRef.current && !containerRef.current.contains(event.target)) {
+      setOpenId(null);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="w-full h-[3rem] bg-[#212121] py-1 px-5 md:px-16">
+    <div className="w-full h-[3rem] bg-[#212121] py-1 px-5 md:px-16" ref={containerRef}>
       <div className="flex justify-between items-center h-full w-full">
         <div className="text-white font-bold">LOGO</div>
         <div className="hidden md:flex gap-7 z-50">
@@ -24,7 +38,8 @@ const Header = () => {
               hasOptions={item.hasOptions}
               options={item.options}
               openId={openId}
-              onOpen={() => handleOpen(item.id)}
+              onOpen={handleOpen}
+              onClose={() => setOpenId(null)}
             />
           ))}
         </div>
