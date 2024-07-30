@@ -3,7 +3,7 @@ import Carousel from "../../components/swiper/Carousel";
 
 const AuthorGuide = () => {
   return (
-    <div className="md:px-16">
+    <div className="md:px-16 md:min-h-screen">
       <div className="mt-4">
         <p className="text-center font-bold font-serif text-2xl md:text-4xl">
           Author Guidelines & Submission

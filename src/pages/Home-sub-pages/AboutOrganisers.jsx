@@ -3,7 +3,7 @@ import ies from "../../assets/iesUniversity.jpg";
 
 const AboutOrganisers = () => {
   return (
-    <div className="md:px-16">
+    <div className="md:px-16 md:min-h-screen">
       <div className="mt-4 my-3">
         <p className="text-center md:text-2xl underline font-semibold">
           About Conference Organisers

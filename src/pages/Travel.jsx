@@ -11,7 +11,7 @@ const Travel = () => {
       </div>
       <div className="md:px-16 mt-5 text-lg text-justify tracking-wide space-y-3">
         <p>
-          Please send an email to <strong>uniteas.skuc@gmail.com</strong> for
+          Please send an email to <strong>mpteas2024@iesbpl.ac.in</strong> for
           VISA Letter if required.
         </p>
         <p className="font-semibold text-center text-2xl">Travel & Visa</p>
@@ -24,7 +24,7 @@ const Travel = () => {
           <strong>mpteas2024@iesbpl.ac.in</strong>. However, delegates of the
           following countries can obtain VISA ON ARRIVAL facility.
         </p>
-        <p className="font-semibold">
+        <p className="font-semibold underline">
           e-Tourist Visa Facility is available for nationals of the following
           countries/territories:
         </p>

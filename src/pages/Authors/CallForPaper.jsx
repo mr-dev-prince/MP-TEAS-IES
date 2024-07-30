@@ -22,12 +22,12 @@ const CallForPaper = () => {
         >
           https://cmt3.research.microsoft.com/MPTEAS2024
         </a>
-        <p className="text-red-500 text-left">
+        <p className="text-left">
           Academicians/Researchers across the globe are invited to present their
           original work with Publication Opportunity in Scopus/SCImago/DBLP/UGC
           CARE Indexed Conference Proceedings
         </p>
-        <p className="text-red-500 md:font-extrabold text-left">
+        <p className="md:font-extrabold text-left">
           “Proceedings of MP-TEAS 2024” will be published in two volumes of
           Springer Nature's Scopus/SCI indexed book series “Lecture Notes in
           Networks and Systems” :
@@ -38,7 +38,7 @@ const CallForPaper = () => {
         >
           https://www.springer.com/series/15179
         </a>
-        <p className="text-red-500 text-left">
+        <p className="text-left">
           The LNNS Series of Speinger Nature is indexed in SCOPUS, SCImago
           INSPEC, WTI Frankfurt eG, zbMATH, DBLP, Google Scholar and
           Springerlink, and this is also indexed by UGC Care.

@@ -2,7 +2,7 @@ import React from "react";
 
 const PcChairs = () => {
   return (
-    <div className="md:px-16 px-5 my-3">
+    <div className="md:px-16 px-5 my-3 md:min-h-screen">
       <div>
         <p className="md:text-5xl text-2xl text-center font-serif font-bold">PC Chair(s) Convenor(s)/Co Chairs/Publicity Chairs</p>
         <div className="h-1 mt-2 rounded-xl bg-gradient-to-r from-white via-black to-white relative" />

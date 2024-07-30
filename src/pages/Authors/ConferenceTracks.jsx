@@ -3,7 +3,7 @@ import Carousel from "../../components/swiper/Carousel";
 
 const ConferenceTracks = () => {
   return (
-    <div className="md:px-16">
+    <div className="md:px-16 md:min-h-screen">
       <div className="mt-4">
         <h1 className="text-center font-bold font-serif text-2xl md:text-4xl">
           Conference Tracks

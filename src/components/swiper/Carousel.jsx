@@ -24,9 +24,9 @@ const Carousel = () => {
     <div className="w-full h-fit flex justify-center items-center md:py-2 relative group overflow-hidden select-none ">
       <span
         onClick={handlePrev}
-        className="opacity-0 group-hover:opacity-100 bg-slate-400/[0.6] rounded-xl py-3  absolute left-0 z-50 cursor-pointer duration-200 hidden md:block"
+        className="opacity-0 group-hover:opacity-100 bg-slate-400/[0.6] py-3  absolute left-0 z-50 cursor-pointer duration-200 hidden md:block"
       >
-        <FaChevronLeft size={32} color="white" />
+        <FaChevronLeft size={24} color="white" />
       </span>
       <div className="flex w-full justify-center items-center shadow-md shadow-slate-400">
         <Swiper
@@ -43,7 +43,7 @@ const Carousel = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="w-full h-full bg-red-500 "
+          className="w-full h-full"
         >
           {carouselContent.map((item) => (
             <SwiperSlide key={item.id}>
@@ -58,9 +58,9 @@ const Carousel = () => {
       </div>
       <span
         onClick={handleNext}
-        className="opacity-0 absolute right-0 z-50 bg-slate-400/[0.6] rounded-xl py-3  group-hover:opacity-100 cursor-pointer duration-200 hidden md:block"
+        className="opacity-0 absolute right-0 z-50 bg-slate-400/[0.6] py-3  group-hover:opacity-100 cursor-pointer duration-200 hidden md:block"
       >
-        <FaChevronRight size={32} color="white" />
+        <FaChevronRight size={24} color="white" />
       </span>
     </div>
   );

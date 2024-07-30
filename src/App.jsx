@@ -11,7 +11,6 @@ import CallForPaper from "./pages/Authors/CallForPaper";
 import ImportantDate from "./pages/Authors/ImportantDate";
 import AuthorGuide from "./pages/Authors/AuthorGuide";
 import ConferenceTracks from "./pages/Authors/ConferenceTracks";
-import Registrations from "./pages/Authors/Registrations";
 import ConferenceBoard from "./pages/Commitee/ConferenceBoard";
 import Patron from "./pages/Commitee/Patron";
 import AdvisoryChairs from "./pages/Commitee/AdvisoryChairs";
@@ -21,9 +20,7 @@ import PcChairs from "./pages/Commitee/PcChairs";
 import EminentSpeakers from "./pages/Invitees/EminentSpeakers";
 import KeynoteSpeakers from "./pages/Invitees/KeynoteSpeakers";
 import InvitedSpeakers from "./pages/Invitees/InvitedSpeakers";
-import Workshop from "./pages/Invitees/Workshop";
 import ProposalGuidelines from "./pages/SSP/ProposalGuidelines";
-import SpecialSubmission from "./pages/SSP/SpecialSubmission";
 import Proceedings from "./pages/SSP/Proceedings";
 import Tracks from "./pages/SSP/Tracks";
 import PaperCategories from "./pages/SSP/PaperCategories";
@@ -44,7 +41,6 @@ function App() {
         <Route path="/important_dates" element={<ImportantDate />} />
         <Route path="/author_guidelines" element={<AuthorGuide />} />
         <Route path="/conference_tracks" element={<ConferenceTracks />} />
-        <Route path="/registrations" element={<Registrations />} />
         <Route path="/cob" element={<ConferenceBoard />} />
         <Route path="/patron" element={<Patron />} />
         <Route path="/advisory_chairs" element={<AdvisoryChairs />} />
@@ -54,9 +50,7 @@ function App() {
         <Route path="/eminent_speakers" element={<EminentSpeakers />} />
         <Route path="/keynote_speakers" element={<KeynoteSpeakers />} />
         <Route path="/invited_speakers" element={<InvitedSpeakers />} />
-        <Route path="/workshop" element={<Workshop />} />
         <Route path="/proposal_guide" element={<ProposalGuidelines />} />
-        <Route path="/special_subs" element={<SpecialSubmission />} />
         <Route path="/proceedings" element={<Proceedings />} />
         <Route path="/tracks" element={<Tracks />} />
         <Route path="/paper_category" element={<PaperCategories />} />

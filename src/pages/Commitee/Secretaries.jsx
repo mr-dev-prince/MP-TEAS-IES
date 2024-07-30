@@ -2,7 +2,7 @@ import React from "react";
 
 const Secretaries = () => {
   return (
-    <div className="md:px-16 px-5 my-3">
+    <div className="md:px-16 px-5 my-3 min-h-screen">
       <div>
         <p className="md:text-5xl text-2xl text-center font-serif font-bold">Organizing Secretary and Publicity Chair</p>
         <div className="h-1 mt-2 rounded-xl bg-gradient-to-r from-white via-black to-white relative" />

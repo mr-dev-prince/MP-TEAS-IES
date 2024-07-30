@@ -7,7 +7,6 @@ export const headerOptions = [
   },
   {
     id: 1,
-    href: "/",
     value: "Details",
     hasOptions: true,
     options: [
@@ -19,7 +18,6 @@ export const headerOptions = [
   },
   {
     id: 2,
-    href: "/authors",
     value: "Authors",
     hasOptions: true,
     options: [
@@ -31,12 +29,10 @@ export const headerOptions = [
         value: "Author Guidelines & Submission",
       },
       { id: 4, href: "/conference_tracks", value: "Conference Tracks" },
-      { id: 5, href: "/registrations", value: "Registrations" },
     ],
   },
   {
     id: 3,
-    href: "/committees",
     value: "Committees",
     hasOptions: true,
     options: [
@@ -55,7 +51,6 @@ export const headerOptions = [
   },
   {
     id: 4,
-    href: "/conferenceinfo",
     value: "Invitees",
     hasOptions: true,
     options: [
@@ -66,25 +61,14 @@ export const headerOptions = [
         href: "/invited_speakers",
         value: "Invited Speaker(s) / Session Chair(s)",
       },
-      {
-        id: 4,
-        href: "/workshop",
-        value: "Workshop",
-      },
     ],
   },
   {
     id: 5,
-    href: "/ssp",
     value: "Special Session Proposals",
     hasOptions: true,
     options: [
       { id: 1, href: "/proposal_guide", value: "Proposal Guidelines" },
-      {
-        id: 2,
-        href: "/special_subs",
-        value: "Submission for Special Sessions",
-      },
       { id: 3, href: "/proceedings", value: "Proceedings" },
       { id: 4, href: "/tracks", value: "Tracks" },
       { id: 5, href: "/paper_category", value: "Paper Categories" },

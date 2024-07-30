@@ -2,7 +2,7 @@ import React from "react";
 
 const AimObjectivesPages = () => {
   return (
-    <div className="md:px-16 px-5  md:my-2 my-4">
+    <div className="md:px-16 px-5  md:my-2 my-4 md:min-h-screen">
       <div className="text-center">
         <p className="text-2xl md:text-4xl font-serif font-bold">
           Aim & Objectives
