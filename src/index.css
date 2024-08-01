@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+thead,
+tbody,
+td,
+tr,
+th {
+  border: 2px solid black;
+}
 
-thead, tbody, td, tr, th{
-    border: 2px solid black;
+.highlight {
+  background-color: #e0e0e0;
+  padding: 2px 4px;
+  border-radius: 4px;
 }

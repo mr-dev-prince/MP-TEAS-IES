@@ -9,7 +9,7 @@ const Description = () => {
         </p>
         <div className=" h-1 rounded-xl bg-gradient-to-r from-white via-black to-white relative" />
       </div>
-      <div className="mt-4 md:font-medium w-full px-6 flex flex-col gap-3 text-justify">
+      <div className="mt-4 md:font-medium w-full px-3 flex flex-col gap-3 text-justify">
         <p>
           This conference i.e.{" "}
           <span className=" font-semibold  md:font-bold">

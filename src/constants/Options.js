@@ -21,14 +21,10 @@ export const headerOptions = [
     value: "Authors",
     hasOptions: true,
     options: [
-      { id: 1, href: "/call_for_papers", value: "Call For Papers" },
-      { id: 2, href: "/important_dates", value: "Important Dates" },
-      {
-        id: 3,
-        href: "/author_guidelines",
-        value: "Author Guidelines & Submission",
-      },
-      { id: 4, href: "/conference_tracks", value: "Conference Tracks" },
+      { id: 5, href: "/call_for_papers", value: "Call For Papers" },
+      { id: 6, href: "/important_dates", value: "Important Dates" },
+      { id: 7, href: "/author_guidelines", value: "Author Guidelines & Submission" },
+      { id: 8, href: "/conference_tracks", value: "Conference Tracks" },
     ],
   },
   {
@@ -36,17 +32,12 @@ export const headerOptions = [
     value: "Committees",
     hasOptions: true,
     options: [
-      { id: 1, href: "/cob", value: "Conference Organizers & Boards" },
-      { id: 1, href: "/patron", value: "Patron/Copatron/General chair" },
-      { id: 1, href: "/advisory_chairs", value: "Advisory Chairs" },
-      { id: 1, href: "/pc_chairs", value: "PC Chairs Convenor / Co-Chairs" },
-      {
-        id: 1,
-        href: "/secretary",
-        value:
-          "Organizing Secretary / Co-Organizing Secretary / Joint Secretary",
-      },
-      { id: 1, href: "/org_committee", value: "Organizing Committee" },
+      { id: 9, href: "/cob", value: "Conference Organizers & Boards" },
+      { id: 10, href: "/patron", value: "Patron/Copatron/General chair" },
+      { id: 11, href: "/advisory_chairs", value: "Advisory Chairs" },
+      { id: 12, href: "/pc_chairs", value: "PC Chairs Convenor / Co-Chairs" },
+      { id: 13, href: "/secretary", value: "Organizing Secretary / Co-Organizing Secretary / Joint Secretary" },
+      { id: 14, href: "/org_committee", value: "Organizing Committee" },
     ],
   },
   {
@@ -54,13 +45,9 @@ export const headerOptions = [
     value: "Invitees",
     hasOptions: true,
     options: [
-      { id: 1, href: "/eminent_speakers", value: "Eminent Guests of Honors" },
-      { id: 2, href: "/keynote_speakers", value: "Keynote Speakers" },
-      {
-        id: 3,
-        href: "/invited_speakers",
-        value: "Invited Speaker(s) / Session Chair(s)",
-      },
+      { id: 15, href: "/eminent_speakers", value: "Eminent Guests of Honors" },
+      { id: 16, href: "/keynote_speakers", value: "Keynote Speakers" },
+      { id: 17, href: "/invited_speakers", value: "Invited Speaker(s) / Session Chair(s)" },
     ],
   },
   {
@@ -68,10 +55,10 @@ export const headerOptions = [
     value: "Special Session Proposals",
     hasOptions: true,
     options: [
-      { id: 1, href: "/proposal_guide", value: "Proposal Guidelines" },
-      { id: 3, href: "/proceedings", value: "Proceedings" },
-      { id: 4, href: "/tracks", value: "Tracks" },
-      { id: 5, href: "/paper_category", value: "Paper Categories" },
+      { id: 18, href: "/proposal_guide", value: "Proposal Guidelines" },
+      { id: 19, href: "/proceedings", value: "Proceedings" },
+      { id: 20, href: "/tracks", value: "Tracks" },
+      { id: 21, href: "/paper_category", value: "Paper Categories" },
     ],
   },
   {
@@ -79,20 +66,17 @@ export const headerOptions = [
     href: "/travel",
     value: "Travel & Visa",
     hasOptions: false,
-    options: [{ id: 1, href: "/", value: "" }],
-  },
-  {
-    id: 8,
-    href: "/",
-    value: "Schedule",
-    hasOptions: false,
-    options: [{ id: 1, href: "/", value: "" }],
   },
   {
     id: 7,
+    href: "/",
+    value: "Schedule",
+    hasOptions: false,
+  },
+  {
+    id: 8,
     href: "/contact",
     value: "Contact Us",
     hasOptions: false,
-    options: [{ id: 1, href: "/", value: "" }],
   },
 ];

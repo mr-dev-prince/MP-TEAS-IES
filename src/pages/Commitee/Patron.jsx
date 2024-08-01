@@ -11,10 +11,10 @@ const Patron = () => {
         </p>
         <div className="h-1 mt-2 rounded-xl bg-gradient-to-r from-white via-black to-white relative" />
       </div>
-      <div className="flex justify-center items-center gap-10 mt-12">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10 my-12 ">
         <div className="outline p-2 rounded-md shadow-xl shadow-slate-400">
           <img
-            className="md:h-96 md:w-96 object-cover rounded-lg"
+            className="md:h-96 md:w-96 w-80 object-cover rounded-lg"
             src={img1}
             alt="Er. B. S. Yadav"
           />
@@ -26,7 +26,7 @@ const Patron = () => {
         </div>
         <div className="outline p-2 rounded-md shadow-xl shadow-slate-400">
           <img
-            className="md:h-96 md:w-96 object-cover rounded-lg"
+            className="md:h-96 md:w-96 w-80 object-cover rounded-lg"
             src={img2}
             alt="Dr. Sunita Singh"
           />

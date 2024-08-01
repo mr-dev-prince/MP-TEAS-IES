@@ -3,7 +3,7 @@ import Carousel from "../../components/swiper/Carousel";
 
 const Tracks = () => {
   return (
-    <div className="md:px-16">
+    <div className="md:px-16 px-4">
       <div className="mt-4">
         <h1 className="text-center font-bold font-serif text-2xl md:text-4xl">
           Tracks
@@ -12,13 +12,13 @@ const Tracks = () => {
         <Carousel />
       </div>
       <div className="flex flex-col items-center mt-4">
-        <p className="text-xl font-semibold">
+        <p className="md:text-xl font-semibold">
           Conference Tracks The tracks of the conference include but not
           restricted to:
         </p>
         <div className="my-4">
           <table>
-            <tbody className="text-lg font-semibold text-center">
+            <tbody className="md:text-lg font-semibold text-center">
               <tr>
                 <td className="px-5 bg-blue-500">Track 1</td>
                 <td className="py-2 px-3 bg-blue-300">
