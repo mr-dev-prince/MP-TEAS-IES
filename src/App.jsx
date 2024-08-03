@@ -26,6 +26,7 @@ import Tracks from "./pages/SSP/Tracks";
 import PaperCategories from "./pages/SSP/PaperCategories";
 import Travel from "./pages/Travel";
 import ContactUs from "./pages/ContactUs";
+import Registrations from "./pages/Authors/Registrations";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/important_dates" element={<ImportantDate />} />
         <Route path="/author_guidelines" element={<AuthorGuide />} />
         <Route path="/conference_tracks" element={<ConferenceTracks />} />
+        <Route path="/registrations" element={<Registrations />} />
         <Route path="/cob" element={<ConferenceBoard />} />
         <Route path="/patron" element={<Patron />} />
         <Route path="/advisory_chairs" element={<AdvisoryChairs />} />

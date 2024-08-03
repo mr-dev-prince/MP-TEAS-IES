@@ -23,8 +23,13 @@ export const headerOptions = [
     options: [
       { id: 5, href: "/call_for_papers", value: "Call For Papers" },
       { id: 6, href: "/important_dates", value: "Important Dates" },
-      { id: 7, href: "/author_guidelines", value: "Author Guidelines & Submission" },
+      {
+        id: 7,
+        href: "/author_guidelines",
+        value: "Author Guidelines & Submission",
+      },
       { id: 8, href: "/conference_tracks", value: "Conference Tracks" },
+      { id: 22, href: "/registrations", value: "Registrations" },
     ],
   },
   {
@@ -36,7 +41,12 @@ export const headerOptions = [
       { id: 10, href: "/patron", value: "Patron/Copatron/General chair" },
       { id: 11, href: "/advisory_chairs", value: "Advisory Chairs" },
       { id: 12, href: "/pc_chairs", value: "PC Chairs Convenor / Co-Chairs" },
-      { id: 13, href: "/secretary", value: "Organizing Secretary / Co-Organizing Secretary / Joint Secretary" },
+      {
+        id: 13,
+        href: "/secretary",
+        value:
+          "Organizing Secretary / Co-Organizing Secretary / Joint Secretary",
+      },
       { id: 14, href: "/org_committee", value: "Organizing Committee" },
     ],
   },
@@ -47,7 +57,11 @@ export const headerOptions = [
     options: [
       { id: 15, href: "/eminent_speakers", value: "Eminent Guests of Honors" },
       { id: 16, href: "/keynote_speakers", value: "Keynote Speakers" },
-      { id: 17, href: "/invited_speakers", value: "Invited Speaker(s) / Session Chair(s)" },
+      {
+        id: 17,
+        href: "/invited_speakers",
+        value: "Invited Speaker(s) / Session Chair(s)",
+      },
     ],
   },
   {
@@ -78,5 +92,28 @@ export const headerOptions = [
     href: "/contact",
     value: "Contact Us",
     hasOptions: false,
+  },
+];
+
+export const registrationData = [
+  {
+    category: "Industry",
+    earlyBird: { indian: "₹ 13000", foreigner: "$ 400" },
+    regular: { indian: "₹ 15000", foreigner: "$ 500" },
+  },
+  {
+    category: "Academician/Research Scholar (PhD)",
+    earlyBird: { indian: "₹ 12000", foreigner: "$ 350" },
+    regular: { indian: "₹ 14000", foreigner: "$ 450" },
+  },
+  {
+    category: "Student (UG/PG)",
+    earlyBird: { indian: "₹ 10000", foreigner: "$ 300" },
+    regular: { indian: "₹ 11000", foreigner: "$ 350" },
+  },
+  {
+    category: "Participant Only",
+    earlyBird: { indian: "₹ 3500", foreigner: "$ 150" },
+    regular: { indian: "₹ 4500", foreigner: "$ 200" },
   },
 ];

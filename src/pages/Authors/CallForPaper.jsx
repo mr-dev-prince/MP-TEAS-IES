@@ -30,7 +30,10 @@ const CallForPaper = () => {
         <p className="md:font-extrabold text-left">
           “Proceedings of MP-TEAS 2024” will be published in two volumes of
           Springer Nature's Scopus/SCI indexed book series “Lecture Notes in
-          Networks and Systems” :
+          Networks and Systems” <br />
+          <span className="font-bold animate-pulse text-orange-400">
+            [ Approval Under Process ]
+          </span>
         </p>
         <a
           className="text-blue-700 underline font-semibold"
@@ -169,13 +172,21 @@ const CallForPaper = () => {
             </p>
             <p>
               Word Template Download{" "}
-              <a className="text-blue-500 hover:underline" href="">
+              <a
+                target="_blank"
+                className="text-blue-500 hover:underline"
+                href="https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734"
+              >
                 Click Here!
               </a>
             </p>
             <p>
               LATEX Template Download{" "}
-              <a className="text-blue-500 hover:underline" href="">
+              <a
+                target="_blank"
+                className="text-blue-500 hover:underline"
+                href="https://www.springer.com/in/livingreviews/latex-templates?Frontend@footer-livingreviews.bottom3.url"
+              >
                 Click Here!
               </a>
             </p>
