@@ -30,7 +30,11 @@ const Footer = () => {
       <div className="bg-blue-700 w-full flex flex-col md:flex-row justify-between items-center md:px-44 text-white py-2">
         <span>Copyright. &#169; All rights reserved.</span>
         <span className="text-center mt-3 md:mt-0">
-          Developed by Prince, Anshu, Himanshi & Team
+          Developed by  
+          <Link className=" hover:scale-105" to="https://www.linkedin.com/in/princechaurasia/"> Prince,</Link>
+          <Link className=" hover:scale-105" to="https://www.linkedin.com/in/anshu-pandey-b08860258/"> Anshu,</Link>
+          <Link className=" hover:scale-105" to="https://www.linkedin.com/in/himi04/"> Himanshi </Link>
+            & Team
         </span>
       </div>
     </>
