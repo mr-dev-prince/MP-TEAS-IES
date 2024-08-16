@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import logo1 from "../../assets/ies.png";
 import logo2 from "../../assets/icot.png";
@@ -31,9 +30,9 @@ const Footer = () => {
         <span>Copyright. &#169; All rights reserved.</span>
         <span className="text-center mt-3 md:mt-0">
           Developed by  
-          <Link className=" hover:scale-105" to="https://www.linkedin.com/in/princechaurasia/"> Prince,</Link>
-          <Link className=" hover:scale-105" to="https://www.linkedin.com/in/anshu-pandey-b08860258/"> Anshu,</Link>
-          <Link className=" hover:scale-105" to="https://www.linkedin.com/in/himi04/"> Himanshi </Link>
+          <Link target="blank" className=" hover:scale-105" to="https://www.linkedin.com/in/princechaurasia/"> Prince,</Link>
+          <Link target='blank' className=" hover:scale-105" to="https://www.linkedin.com/in/anshu-pandey-b08860258/"> Anshu,</Link>
+          <Link target="blank" className=" hover:scale-105" to="https://www.linkedin.com/in/himi04/"> Himanshi </Link>
             & Team
         </span>
       </div>
