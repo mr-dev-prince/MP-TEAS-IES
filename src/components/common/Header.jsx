@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { headerOptions } from "../../constants/Options";
 import Links from "../fragments/Links";
 import { DrawerComponent } from "../fragments/DrawerComponent";

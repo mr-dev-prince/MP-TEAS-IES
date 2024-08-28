@@ -10,7 +10,7 @@ const InvitedSpeakers = () => {
         <div className="h-1 mt-2 rounded-xl bg-gradient-to-r from-white via-black to-white relative" />
       </div>
       <div className="md:px-16 mt-5 text-lg text-justify tracking-wide space-y-3">
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside space-y-3">
           <li>
             <span className="highlight">
               Dr. Niko Phillips, Director, International, Activate Learning,
@@ -75,7 +75,7 @@ const InvitedSpeakers = () => {
         <div className="h-1 mt-2 rounded-xl bg-gradient-to-r from-white via-black to-white relative" />
       </div>
       <div className="md:px-16 mt-5 text-lg text-justify tracking-wide space-y-3">
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside space-y-3">
           <li>
             <span className="highlight">
               Prof. N. N. Jani, Ex-Director CS, Saurashtra University, Rajkot
@@ -271,7 +271,7 @@ const InvitedSpeakers = () => {
           </li>
           <li>
             <span className="highlight">
-              Dr. Suresh Kumar, Asso. Prof, Savitha Engineering College, Chennai
+            Dr. Suresh Kumar K. Professor and Head, Department of Information Technology, Saveetha Engineering College(Autonomous), Thandalam, Chennai-602105
             </span>
           </li>
           <li>
@@ -287,8 +287,8 @@ const InvitedSpeakers = () => {
           </li>
           <li>
             <span className="highlight">
-              Dr. Abid Hussain, Associate Professor, Career Point University,
-              Kota
+              Prof.(Dr.) Abid Hussain Professor, SOCAT, Career Point University,
+              Kota (Raj.)
             </span>
           </li>
           <li>
@@ -351,8 +351,8 @@ const InvitedSpeakers = () => {
           </li>
           <li>
             <span className="highlight">
-              Dr. Amit Sharma, Associate Professor, Career Point University,
-              Kota
+              Prof.(Dr.) Abid Hussain Professor, SOCAT, Career Point University,
+              Kota (Raj.)
             </span>
           </li>
         </ul>
