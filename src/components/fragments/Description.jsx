@@ -48,9 +48,6 @@ const Description = () => {
           “Proceedings of MP-TEAS 2024” will be published in two volumes of
           Springer Nature's Scopus/SCI indexed book series “Lecture Notes in
           Networks and Systems”{" "}
-          <span className="font-bold animate-pulse text-orange-400">
-            [ Approval Under Process ]
-          </span>
           <a
             className="text-blue-700"
             href="https://www.springer.com/series/15179"

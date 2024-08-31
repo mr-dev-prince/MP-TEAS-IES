@@ -11,7 +11,7 @@ const Travel = () => {
       </div>
       <div className="md:px-16 mt-5 text-lg text-justify tracking-wide space-y-3">
         <p>
-          Please send an email to <strong>mpteas2024@iesbpl.ac.in</strong> for
+          Please send an email to <strong>mpteas@iesbpl.ac.in</strong> for
           VISA Letter if required.
         </p>
         <p className="font-semibold text-center text-2xl">Travel & Visa</p>
@@ -21,7 +21,7 @@ const Travel = () => {
           current location and complete necessary formalities to obtain an entry
           visa to India. If you require a formal letter of invitation from the
           organizers of MP-TEAS 2024, please contact us at{" "}
-          <strong>mpteas2024@iesbpl.ac.in</strong>. However, delegates of the
+          <strong>mpteas@iesbpl.ac.in</strong>. However, delegates of the
           following countries can obtain VISA ON ARRIVAL facility.
         </p>
         <p className="font-semibold underline">

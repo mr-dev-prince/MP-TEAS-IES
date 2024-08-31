@@ -54,12 +54,6 @@ const Tracks = () => {
               <tr>
                 <td className="px-5 bg-blue-500">Track 6</td>
                 <td className="py-2 px-3 bg-blue-300">
-                  Advancements in App Development Track{" "}
-                </td>
-              </tr>
-              <tr>
-                <td className="px-5 bg-blue-500">Track 7</td>
-                <td className="py-2 px-3 bg-blue-300">
                   Social and Ethical Aspects in Expert Applications through
                   Applied Sciences
                 </td>

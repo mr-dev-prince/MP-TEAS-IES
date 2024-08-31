@@ -12,9 +12,6 @@ const Proceedings = () => {
         <Carousel />
       </div>
       <div className="md:px-16 mt-5 text-lg text-justify tracking-wide space-y-3">
-        <span className="font-bold animate-pulse text-orange-400">
-          [ Approval Under Process ]
-        </span>
         <p>
           Articles submitted to the conference should report original,
           previously unpublished research results, experimental or theoretical

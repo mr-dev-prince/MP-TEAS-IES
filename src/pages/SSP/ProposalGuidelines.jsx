@@ -96,7 +96,7 @@ const ProposalGuidelines = () => {
           All Communications are to be made to
           <a href="mailto:mpteas2024@iesbpl.ac.in" className="text-blue-500">
             {" "}
-            mpteas2024@iesbpl.ac.in
+            mpteas@iesbpl.ac.in
           </a>
           .
         </p>
