@@ -13,7 +13,7 @@ const Description = () => {
         <p>
           This conference i.e.{" "}
           <span className=" font-semibold  md:font-bold">
-            Modern Practises and Trends in Expert Applications and Security
+            Modern Practices and Trends in Expert Applications and Security
             abbreviated as MP-TEAS 2024
           </span>
           , will take place in Bhopal, Madhya Pradesh, India.
