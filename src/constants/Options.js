@@ -102,18 +102,18 @@ export const registrationData = [
     regular: { indian: "₹ 15000", foreigner: "$ 500" },
   },
   {
-    category: "Academician/Research Scholar (PhD)",
+    category: "Academician/Research Fellow",
     earlyBird: { indian: "₹ 12000", foreigner: "$ 350" },
     regular: { indian: "₹ 14000", foreigner: "$ 450" },
   },
   {
-    category: "Student (UG/PG)",
+    category: "Student (UG/PG/PhD)",
     earlyBird: { indian: "₹ 10000", foreigner: "$ 300" },
     regular: { indian: "₹ 11000", foreigner: "$ 350" },
   },
   {
     category: "Participant Only",
-    earlyBird: { indian: "₹ 3500", foreigner: "$ 150" },
-    regular: { indian: "₹ 4500", foreigner: "$ 200" },
+    earlyBird: { indian: "₹ 300", foreigner: "$ 150" },
+    regular: { indian: "₹ 300", foreigner: "$ 200" },
   },
 ];
