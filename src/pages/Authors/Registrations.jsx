@@ -21,8 +21,8 @@ const Registrations = () => {
           <thead>
             <tr>
               <th>Category</th>
-              <th colSpan="2">Early Bird on or Before 30th Nov, 2023</th>
-              <th colSpan="2">Regular After 30th Nov, 2023</th>
+              <th colSpan="2">Early Bird on or Before 30th Nov, 2024</th>
+              <th colSpan="2">Regular After 30th Nov, 2024</th>
             </tr>
             <tr>
               <th></th>
@@ -45,6 +45,7 @@ const Registrations = () => {
           </tbody>
         </table>
         <div className="my-4 list-disc px-4">
+          <p className="pb-4 text-lg">Registration link: <a target="_blank" href="https://forms.gle/jHfmkTxzPnTCoXz16" className="text-blue-700 font-semibold animate-pulse hover:underline">Click here to register Now</a></p>
           <ul className="list-disc md:font-semibold md:text-lg space-y-2">
             <li>Fee inclusive of Service and other Taxes.</li>
             <li>
