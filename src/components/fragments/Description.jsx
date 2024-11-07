@@ -76,32 +76,32 @@ const Description = () => {
               <tr>
                 <td>Manuscript Submission</td>
                 <td className="font-semibold p-1">Oct 20, 2024</td>
-                <td>-</td>
+                <td className="font-semibold p-1">Oct 20, 2024</td>
               </tr>
               <tr>
                 <td>Notification of acceptance</td>
                 <td className="font-semibold p-1">Oct 25, 2024</td>
-                <td>-</td>
+                <td className="font-semibold p-1">Oct 25, 2024</td>
               </tr>
               <tr>
                 <td>Revised Submission</td>
                 <td className="font-semibold p-1">Oct 31, 2024</td>
-                <td>-</td>
+                <td className="font-semibold p-1">Oct 31, 2024</td>
               </tr>
               <tr>
                 <td>Camera Ready Paper Due</td>
                 <td className="font-semibold p-1">Nov 05, 2024 </td>
-                <td>-</td>
+                <td className="font-semibold p-1">Nov 05, 2024 </td>
               </tr>
               <tr>
                 <td>Last Date of Registration(Early Birds)</td>
                 <td className="font-semibold p-1">Nov 02, 2024</td>
-                <td>-</td>
+                <td className="font-semibold p-1">Nov 02, 2024</td>
               </tr>
               <tr>
                 <td>Last date of Registration</td>
                 <td className="font-semibold p-1">Nov 02, 2024</td>
-                <td>-</td>
+                <td className="font-semibold p-1">Nov 02, 2024</td>
               </tr>
             </tbody>
           </table>

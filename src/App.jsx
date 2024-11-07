@@ -27,6 +27,7 @@ import PaperCategories from "./pages/SSP/PaperCategories";
 import Travel from "./pages/Travel";
 import ContactUs from "./pages/ContactUs";
 import Registrations from "./pages/Authors/Registrations";
+import ConferenceReviewers from "./pages/Commitee/ConferenceReviewers";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="/advisory_chairs" element={<AdvisoryChairs />} />
         <Route path="/pc_chairs" element={<PcChairs />} />
         <Route path="/secretary" element={<Secretaries />} />
+        <Route path="/conference-reviewers" element={<ConferenceReviewers />} />
         <Route path="/org_committee" element={<OrgCommittee />} />
         <Route path="/eminent_speakers" element={<EminentSpeakers />} />
         <Route path="/keynote_speakers" element={<KeynoteSpeakers />} />

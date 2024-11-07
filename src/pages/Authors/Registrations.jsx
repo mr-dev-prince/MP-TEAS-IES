@@ -1,6 +1,8 @@
 import React from "react";
 import Carousel from "../../components/swiper/Carousel";
 import { registrationData } from "../../constants/Options";
+import paymentDetails from "../../assets/paymentDetails.jpeg"
+import { Image } from "@chakra-ui/react";
 
 const Registrations = () => {
   return (
@@ -21,8 +23,8 @@ const Registrations = () => {
           <thead>
             <tr>
               <th>Category</th>
-              <th colSpan="2">Early Bird on or Before 30th Nov, 2024</th>
-              <th colSpan="2">Regular After 30th Nov, 2024</th>
+              <th colSpan="2">Early Bird on or Before 10th Nov, 2024</th>
+              <th colSpan="2">Regular After 10th Nov, 2024</th>
             </tr>
             <tr>
               <th></th>
@@ -46,6 +48,8 @@ const Registrations = () => {
         </table>
         <div className="my-4 list-disc px-4">
           <p className="pb-4 text-lg">Registration link: <a target="_blank" href="https://forms.gle/jHfmkTxzPnTCoXz16" className="text-blue-700 font-semibold animate-pulse hover:underline">Click here to register Now</a></p>
+          <div className="py-4">
+          <Image src={paymentDetails}/></div>
           <ul className="list-disc md:font-semibold md:text-lg space-y-2">
             <li>Fee inclusive of Service and other Taxes.</li>
             <li>

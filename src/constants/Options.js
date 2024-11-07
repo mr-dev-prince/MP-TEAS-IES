@@ -38,6 +38,7 @@ export const headerOptions = [
     hasOptions: true,
     options: [
       { id: 9, href: "/cob", value: "Conference Organizers & Boards" },
+      { id: 14, href: "/conference-reviewers", value: "Conference Reviewers" },
       { id: 10, href: "/patron", value: "Patron/Copatron/General chair" },
       { id: 11, href: "/advisory_chairs", value: "Advisory Chairs" },
       { id: 12, href: "/pc_chairs", value: "PC Chairs Convenor / Co-Chairs" },
