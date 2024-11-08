@@ -90,7 +90,6 @@ const ConferenceReviewers = () => {
                     <thead>
                         <tr>
                             <th className="border border-gray-300 px-2 sm:px-4 py-2 text-center">Name</th>
-                            <th className="border border-gray-300 px-2 sm:px-4 py-2">Email</th>
                             <th className="border border-gray-300 px-2 sm:px-4 py-2">Organization</th>
                         </tr>
                     </thead>
@@ -98,7 +97,6 @@ const ConferenceReviewers = () => {
                         {data.map((row, index) => (
                             <tr key={index}>
                                 <td className="border border-gray-300 px-2 sm:px-4 py-2 text-left">{row.name}</td>
-                                <td className="border border-gray-300 px-2 sm:px-4 py-2 text-left">{row.email}</td>
                                 <td className="border border-gray-300 px-2 sm:px-4 py-2 text-left">{row.organization}</td>
                             </tr>
                         ))}
