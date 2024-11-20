@@ -43,12 +43,12 @@ const ImportantDate = () => {
               </tr>
               <tr>
                 <td>Last Date of Registration(Early Birds)</td>
-                <td className="font-semibold p-1">Nov 02, 2024</td>
+                <td className="font-semibold p-1">Nov 12, 2024</td>
                 <td>-</td>
               </tr>
               <tr>
                 <td>Last date of Registration</td>
-                <td className="font-semibold p-1">Nov 02, 2024</td>
+                <td className="font-semibold p-1">Nov 10, 2024</td>
                 <td>-</td>
               </tr>
               <tr>

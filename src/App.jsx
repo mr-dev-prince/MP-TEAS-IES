@@ -28,6 +28,7 @@ import Travel from "./pages/Travel";
 import ContactUs from "./pages/ContactUs";
 import Registrations from "./pages/Authors/Registrations";
 import ConferenceReviewers from "./pages/Commitee/ConferenceReviewers";
+import ConferenceItinerary from "./pages/Authors/ConferenceItinerary";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/author_guidelines" element={<AuthorGuide />} />
         <Route path="/conference_tracks" element={<ConferenceTracks />} />
         <Route path="/registrations" element={<Registrations />} />
+        <Route path="/itinerary" element={<ConferenceItinerary />} />
         <Route path="/cob" element={<ConferenceBoard />} />
         <Route path="/patron" element={<Patron />} />
         <Route path="/advisory_chairs" element={<AdvisoryChairs />} />

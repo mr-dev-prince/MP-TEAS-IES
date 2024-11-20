@@ -30,6 +30,7 @@ export const headerOptions = [
       },
       { id: 8, href: "/conference_tracks", value: "Conference Tracks" },
       { id: 22, href: "/registrations", value: "Registrations" },
+      { id: 23, href: "/itinerary", value: "Conference Itinerary" },
     ],
   },
   {
