@@ -51,6 +51,24 @@ const ConferenceItinerary = () => {
           <PresentationSchedule schedule={schedule2} />
         )}
       </div>
+      <div className="w-full flex justify-center items-center gap-5">
+        <p className="animate-pulse text-red-600 font-extrabold text-2xl">
+          Note:{"  "}{" "}
+        </p>
+        <p className="text-2xl font-extrabold">
+          Those paper not present due to late registration, presentation will be
+          held in Session VIII
+        </p>
+      </div>
+
+      <div className="border mx-36 p-5 rounded-xl mt-4 border-blue-700">
+        <p className="text-xl font-semibold tracking-wide">
+          We would like to inform all participants that some papers have not
+          been included in the session list due to late registration. These
+          presentations will be held in Session VIII. We kindly request your
+          understanding and cooperation as we make these adjustments.
+        </p>
+      </div>
     </div>
   );
 };
@@ -160,7 +178,7 @@ const day1 = [
     time: "11:00 AM - 11:30 AM",
     event: "Inaugural Ceremony",
     details:
-      "Chairman Speech (10 Min)\nGuest of Honour Speak (5 Min)\nWelcome Address, Guest Introductions, and Opening Remarks.",
+      "Chairman Speech (10 Min)\nGuest of Honour Speech (5 Min)\nWelcome Address, Guest Introductions, and Opening Remarks.",
     link: "",
   },
   {
